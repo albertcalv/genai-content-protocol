@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Save Icons with Labels</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+
+<div class="icon-column">
+
+  <div class="icon">
+    <div class="label">Human-Authored Content</div>
+    <div class="container-white">
+      <div class="light"></div>
+      <div class="light"></div>
+      <div class="light"></div>
+    </div>
+  </div>
+
+</div>
+
+<div class="icon-column">
+
+  <div class="icon">
+    <div class="label">Privacy-Preserving Content</div>
+    <div class="container-blue">
+      <div class="light selected">✨</div>
+      <div class="light"></div>
+      <div class="light"></div>
+    </div>
+  </div>
+
+  <div class="icon">
+    <div class="label">Privacy-Preserving Content</div>
+    <div class="container-blue">
+      <div class="light selected">✨</div>
+      <div class="light selected">📎</div>
+      <div class="light"></div>
+    </div>
+  </div>
+
+  <div class="icon">
+    <div class="label">Privacy-Preserving Content</div>
+    <div class="container-blue">
+      <div class="light selected">✨</div>
+      <div class="light selected">📎</div>
+      <div class="light selected">⚙️</div>
+    </div>
+  </div>
+
+</div>
+
+<div class="icon-column">
+
+  <div class="icon">
+    <div class="label">Non-Privacy-Preserving Content</div>
+    <div class="container-orange">
+      <div class="light selected">✨</div>
+      <div class="light selected"></div>
+      <div class="light selected"></div>
+    </div>
+  </div>
+
+  <div class="icon">
+    <div class="label">Non-Privacy-Preserving Content</div>
+    <div class="container-orange">
+      <div class="light selected">✨</div>
+      <div class="light selected">📎</div>
+      <div class="light selected"></div>
+    </div>
+  </div>
+
+  <div class="icon">
+    <div class="label">Non-Privacy-Preserving Content</div>
+    <div class="container-orange">
+      <div class="light selected">✨</div>
+      <div class="light selected">📎</div>
+      <div class="light selected">⚙️</div>
+    </div>
+  </div>
+
+</div>
+
+<script>
+window.addEventListener('load', () => {
+  const icons = document.querySelectorAll('.icon');
+
+  names_list = ["human_authored", 
+                "privacy_preserving_1", "privacy_preserving_2", "privacy_preserving_3", 
+                "non_privacy_preserving_1", "non_privacy_preserving_2", "non_privacy_preserving_3"]
+
+
+  icons.forEach((icon, index) => {
+    html2canvas(icon).then(canvas => {
+      const link = document.createElement('a');
+      link.download = `${names_list[index]}.png`;
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+    });
+  });
+});
+</script>
+
+</body>
+</html>
