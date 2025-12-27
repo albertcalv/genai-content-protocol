@@ -1,3 +1,4 @@
+# Gen-AI Content Protocol (GCP)
 The Gen-AI Content Protocol (GCP) allows authors to clearly declare the use of generative AI tools in documents, while self-assessing their understanding of the associated risks and implications. Specifically, the GCP provides a human-friendly, easy-to-adopt taxonomy that describes how generative AI tools have been used. This taxonomy defines three badges different badges: non–Gen-AI assisted, Gen-AI assisted (private), and Gen-AI assisted.
 
 ![Alt text](badges_png/gcp_badges_sample.png)
