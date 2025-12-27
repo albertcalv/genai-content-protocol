@@ -49,7 +49,7 @@ Simply select the badge that suits your content and include it in your document.
     <tr>
       <td>Human-Authored Content</td>
       <td>
-        <img src="badges_png/human_authored.png" alt="human-authored" width="120" height="40">
+        <img src="badges_png/human_authored.png" alt="human-authored" width="220" height="60">
       </td>
       <td>Content fully created by humans without AI assistance.</td>
       <td>Patentable information, confidential contracts and internal legal reports.</td>
@@ -58,20 +58,20 @@ Simply select the badge that suits your content and include it in your document.
     <tr>
       <td rowspan="3">Privacy-preserving AI-assisted content</td>
       <td>
-        <img src="badges_png/privacy_preserving_1.png" alt="privacy-preserving" width="120" height="40">
+        <img src="badges_png/privacy_preserving_1.png" alt="privacy-preserving" width="220" height="60">
       </td>
       <td> Language Editing only</td>
       <td rowspan="3">Scientific papers, anonymized research reports, internal documentation, University reports and thesis.</td>
     </tr>
     <tr>
       <td>
-        <img src="badges_png/privacy_preserving_2.png" alt="privacy-preserving" width="120" height="40">
+        <img src="badges_png/privacy_preserving_2.png" alt="privacy-preserving" width="220" height="60">
       </td>
       <td>AI-Assisted Content Generation</td>
     </tr>
     <tr>
       <td>
-        <img src="badges_png/privacy_preserving_3.png" alt="privacy-preserving" width="120" height="40">
+        <img src="badges_png/privacy_preserving_3.png" alt="privacy-preserving" width="220" height="60">
       </td>
       <td>AI-generated content </td>
     </tr>
@@ -79,20 +79,20 @@ Simply select the badge that suits your content and include it in your document.
     <tr>
       <td rowspan="3">Non-privacy-preserving AI-assisted content</td>
       <td>
-        <img src="badges_png/non_privacy_preserving_1.png" alt="non-privacy-preserving" width="120" height="40">
+        <img src="badges_png/non_privacy_preserving_1.png" alt="non-privacy-preserving" width="260" height="60">
       </td>
       <td>Language Editing only</td>
       <td rowspan="3">Blog posts, press releases, social media, or open-access educational materials.</td>
     </tr>
     <tr>
       <td>
-        <img src="badges_png/non_privacy_preserving_2.png" alt="non-privacy-preserving" width="120" height="40">
+        <img src="badges_png/non_privacy_preserving_2.png" alt="non-privacy-preserving" width="220" height="60">
       </td>
       <td>AI-Assisted Content Generation</td>
     </tr>
     <tr>
       <td>
-        <img src="badges_png/non_privacy_preserving_3.png" alt="non-privacy-preserving" width="120" height="40">
+        <img src="badges_png/non_privacy_preserving_3.png" alt="non-privacy-preserving" width="220" height="60">
       </td>
       <td>AI-generated content </td>
     </tr>
